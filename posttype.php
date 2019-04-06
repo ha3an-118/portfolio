@@ -16,6 +16,7 @@ add_action( 'init', 'ha_portfolio_posttype_register' );
      'has_archive' => true,
      'menu_position' => 10,
      'supports' =>array(
+       'title',
        'author',
        'editor',
        'page-attributes',
